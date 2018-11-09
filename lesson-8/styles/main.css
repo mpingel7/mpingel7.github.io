@@ -9,7 +9,7 @@ table, th, td {
     border-collapse: collapse;
 }
 
-thead {
+.highlight {
     background-color: #628ca6;
 }
 th, td {
