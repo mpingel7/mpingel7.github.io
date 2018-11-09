@@ -9,9 +9,14 @@ table, th, td {
     border-collapse: collapse;
 }
 
+thead{
+    background-color: #7fb9c2;
+}
+
 .highlight {
     background-color: #628ca6;
 }
+
 th, td {
     padding: 5px;
 }
