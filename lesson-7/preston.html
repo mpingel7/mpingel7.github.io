@@ -63,26 +63,15 @@
     
 <!-- CONTENT HERE -->
     <main>
-        <h1 class="cityName">Preston</h1>
-        <div class="">
-            <img src="images/preston-hero.png" alt="" class="">
-            <section class="weathersummary">
-              <h3>Weather Summary</h3>
-              <div class="weatherdetails">
-                <p class="label">Currently:</p>
-                <p class="value">Sunny</p>
-                <p class="label">Temperature:</p>
-                <p class="value">76 &deg;F</p>
-                <p class="label">Humidity:</p>
-                <p class="value">69%</p>
-                <p class="label">Precipitation:</p>
-                <p class="value">0 inches</p>
-                <p class="label">Wind Speed:</p>
-                <p class="value">5 mph</p>
-              </div>
-            </section>
-          </div>
-          <section class="forecast">
+        <div>
+            <h2>Weather conditions: <span id="place">city</span> area</h2>
+            <p>Currently: <span id="currentConditions"></span></p>
+            <p>Temperature: <span id="currentTemp">00</span>&deg;</p>
+            <p>Humidity: <span id="currentHumidity">00</span>%</p>
+            <p>Precipitation: <span id="currentHumidity">00</span> inches</p>
+            <p>Wind Speed: <span id="currentWind">00</span></p>
+        </div>
+           <section class="forecast">
             <h3>High Temperature Forecast</h3>
             <table>
               <thead>
@@ -113,6 +102,7 @@
     <footer>
         <script src="scripts/currentdate.js"></script>
         <script src="scripts/windchill.js"></script>
+        <script src="scripts/scripts.js"></script>
 
     </footer>
    

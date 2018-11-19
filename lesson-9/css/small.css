@@ -118,6 +118,18 @@ form label.top input:required:valid {
     border-left: green solid 6px;
 }
 
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /*----------- FOOTER --------------*/
 footer {
     background-color: #ddd;
