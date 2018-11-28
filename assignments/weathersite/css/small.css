@@ -19,7 +19,7 @@ header {
 }
 header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
-img {
+header img {
     float: right;
 }
 
