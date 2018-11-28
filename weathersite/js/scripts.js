@@ -17,7 +17,7 @@ weatherObject.onload = function() {
 
 } // end of function
 
-var townObject = new XMLHttpRequest();
+/* var townObject = new XMLHttpRequest();
 townObject.open('GET','//byui-cit230.github.io/weather/data/towndata.json',true);
 
 townObject.send();
@@ -37,3 +37,5 @@ townObject.onload = function() {
     document.getElementById('weather_icon').src = icon_path;
 
 } // end of function
+*/
+
