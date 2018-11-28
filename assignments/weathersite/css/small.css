@@ -17,8 +17,14 @@ header {
     padding: .5rem 2%;
     background-color: #ddd;
 }
-header h1 {margin: 0;}
-header h2 {margin: 0; font-weight: normal;}
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+header h2 {
+    text-align: center;
+    margin: 0; font-weight: normal;
+}
 header {
     min-height: 15%;
 }
