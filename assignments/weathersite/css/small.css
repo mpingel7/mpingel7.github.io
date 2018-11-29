@@ -4,6 +4,66 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+/*-----------GRID----------------*/
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; 
+    display: block;
+}
+.item3 { grid-area: hero; }
+.item4 { grid-area: 5day; }
+.item5 { grid-area: main; }
+.item6 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'header header header header header header'
+  'menu hero hero hero hero hero'
+  'menu main main main main main'
+  'footer footer footer footer footer footer';
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.item2 {
+    width: 23%; /* Set a width if you like */
+
+}
+
+.item2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item2 a {
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.item2 a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.item2 a.active {
+    background-color: #4CAF50; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+.fhtable {
+    float: right;
+}
+
+.item5 {
+    background-color: green;
+}
 
 /*----------- BODY --------------*/
 body {
@@ -144,9 +204,10 @@ form label.top input:required:valid {
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #ddd;
+    background-color: black;
     padding: .5rem 2%;
     text-align: center;
+    color: white;
 }
 
 *p {
