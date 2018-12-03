@@ -7,53 +7,20 @@
 	<link rel="stylesheet" href="css/style.css">
 	<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script>
-	$(function() {
-			var elemen = document.querySelector(".navigation > li:nth-child(3) > a");
-			elemen.style.color = 'rgb(255, 0, 0)';
-		})
-	</script>
-	<script>
-	$(function(){
-		var elements = document.querySelectorAll(".navigation > li:nth-child(even) > a");
-		for(var i = 0; i < elements.length; i ++){
-			elements[i].style.color = 'rgb(255, 0, 0)';
-		}
-	})
-	</script>
-	<script>
-		$(function(){
-			$('input[name$="Val"]').css('border', '1px solid red');
-		})
-	</script>
-	<script>
-		$(function(){
-			$('input[name*="Num"]').css('border', '1px solid red');
-		})
-	</script>
-	<script>
-		$(function(){
-			$('input[name!="phoneNum"]').css('border', '1px solid red');
-		})
-	</script>
-	<script>
-		$(function(){
-			$('input[name="nameVal"]').css('border', '1px solid red');
-		})
-	</script>
-	<script>
-		$(function () {
-			$('button').css('border', '1px solid red');
-			
-			$('h2').css('border', '1px solid red');
-		})
-	</script>
-	<script>
 		$(function () {
 			// All jQuery code goes here
 
-			$('#alcoveLogo').css('opacity', 0.4);
+			//$('#alcoveLogo').next().css('background-color', 'rgba(255, 0, 0, 0.2)');
 
-			$('.servicesBtn').css('color', '#FFF');
+			//$('box1').nextAll().css('background-color', 'rgba(255, 0, 0, 0.2)');
+
+			//$('.servicesBtn').css('color', '#FFF');
+
+			//$('.header').children().css('background-color', 'rgba(255, 0, 0, 0.2)');
+
+			//$(".navigation > li:eq(2)").parent().parent().parent().css('opacity', '0.3');
+
+			$('.servicesBtn').closest('div').css('background-color', 'rgba(255, 0, 0, 0.2)');
 		})
 	</script>
 	<script>
