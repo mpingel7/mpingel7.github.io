@@ -54,7 +54,18 @@
     
 <!-- CONTENT HERE -->
     <main>
-        <h2>Welcome to UmbrellasUp, your comprehensive weather site for the Preston, Soda Springs, and Fish Haven areas in Southern Idaho!</h2>
+        <h2 class="cityname">Southern Idaho's Most Trusted Weather Source</h2>
+            <div class="home-hero-image">
+                    <section class="weathersummary">
+                      <div class="hero-text">
+                        <br>
+                        <br> 
+                        <h2>Your comprehensive weather site for the Preston, Soda Springs, and Fish Haven areas in Southern Idaho!</h2>
+                        <br>
+                        <br>
+                    </div>
+                    </section>
+                  </div>
         <div class="row">
             <div class="column">
                 <h3><span id="city"></span></h1>
@@ -85,10 +96,14 @@
     </main>
     
 <!-- FOOTER HERE -->   
-    <footer>
+    <footer onload="currentDate()">
+        <p id="currentdate"></p>
+        <p>&#169;2018 UmbrellasUp.com | All Rights Reserved</p>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/windchill.js"></script>
+        <script src="scripts/scripts.js"></script>
 
-    </footer>
-<script src="js/scripts.js"></script>   
+    </footer> 
 
 </body>
 </html>
