@@ -255,6 +255,20 @@ form label.top input:required:valid {
     position: relative;
 }
 
+.fish-hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://www.lakehomesusa.com/feed_listings/images/WFRMLSUT/1405499/1.jpg");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 /* Place text in the middle of the image */
 .hero-text {
     text-align: center;/*
