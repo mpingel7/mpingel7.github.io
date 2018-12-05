@@ -6,7 +6,7 @@
 <meta name="author" content="McKay Pingel">
 
 <!-- This start file was build by Paul Cheney  -->
-<title>Preston Idaho Weather | UmbrellasUp.com</title>
+<title>Preston, Idaho Weather | UmbrellasUp.com</title>
 
 <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -54,29 +54,25 @@
     
 <!-- CONTENT HERE -->
     <main>
-        <br>
-        <br>
-        <br>
+        <h2 class="cityname">Preston, Idaho Weather</h2>
         <div class="hero-image">
-                <div class="hero-text">
-                  <h1>Preston, Idaho Weather</h1>
-                </div>
+                <section class="weathersummary">
+                  <div class="hero-text">
+                        <br>
+                        <br>
+                        <h2>Weather conditions: <span id="place">city</span> area</h2>
+                        <p>Currently: <span id="currentConditions"></span></p>
+                        <p>Temperature: <span id="currentTemp">00</span>&deg;</p>
+                        <p>Humidity: <span id="currentHumidity">00</span>%</p>
+                        <p>Precipitation: <span id="currentHumidity">00</span> inches</p>
+                        <p>Wind Speed: <span id="currentWind">00</span></p>
+                        <br>
+                        <br>
+                    </div>
+                </section>
               </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div>
-            <h2>Weather conditions: <span id="place">city</span> area</h2>
-            <p>Currently: <span id="currentConditions"></span></p>
-            <p>Temperature: <span id="currentTemp">00</span>&deg;</p>
-            <p>Humidity: <span id="currentHumidity">00</span>%</p>
-            <p>Precipitation: <span id="currentHumidity">00</span> inches</p>
-            <p>Wind Speed: <span id="currentWind">00</span></p>
-        </div>
            <section class="forecast">
-            <h3>High Temperature Forecast</h3>
+            <h3>5 Day Forecast</h3>
             <table>
               <thead>
                 <tr>
@@ -100,10 +96,29 @@
               </tbody>
             </table>
           </section>
+          <br>
+          <div class="article">
+              <h3>Preston Article</h3>
+              <img class="articleImg" src="http://1.bp.blogspot.com/-4yD9IqXA2Yo/TqYYAT5qWCI/AAAAAAAABL8/9W6k9bsmbUI/s1600/welcome+to+preston+idaho+id+napoleon+dynamite.jpg" alt="Preston" align="right"> This is where an article about Preston would go. I can get a preview of the content on this main page, and clicking on the button here will allow me to read the rest of this article.</p>
+              <p>The article could be about significant weather events that have happened in the area, places to visit here, or even the best places in town to grab a bite to eat.</p>
+              <br>
+              <button>Read More</button>
+          </div>
+          <div class="contact">
+                <h3>Contact UmbrellasUp.com</h3>
+                <img class="contactImg" src="https://img.bestplaces.net/images/city/1665260_ID_Preston.png" alt="Preston Map" align="left">
+                <p>Contact UmbrellasUp.com to report any feedback you have about our site. We'd love to hear from you!</p>
+                <p>Phone: 867-5303</p>
+                <p>Email: contact@umbrellasup.com</p>
+                <p>Twitter: @umbrellasup</p>
+                <br>
+            </div>
     </main>
     
 <!-- FOOTER HERE -->   
-    <footer>
+    <footer onload="currentDate()">
+        <p id="currentdate"></p>
+        <p>&#169;2018 UmbrellasUp.com | All Rights Reserved</p>
         <script src="scripts/currentdate.js"></script>
         <script src="scripts/windchill.js"></script>
         <script src="scripts/scripts.js"></script>
