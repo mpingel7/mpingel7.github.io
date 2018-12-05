@@ -63,6 +63,27 @@ form label.sbs {
     padding: .4rem 0;
 }
 
+/*------------ GRID ----------------*/
+
+.grid {
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-auto-rows: 500px 500px 500px;
+    grid-gap: 25px;
+}
+
+.grid div {
+    border: 1px solid rgb(0,95,107);
+    border-radius:3px;
+    background-color: rgba(0,95,107,0.8);
+    padding: 0.2rem;
+    color: #fff;
+    font-size:120%;
+}
+
+.grid {
+    max-width: 500px;
+}
 
 /*----------- FOOTER --------------*/
     
