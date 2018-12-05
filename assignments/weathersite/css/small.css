@@ -216,8 +216,8 @@ main p {
     clear: both;
 }
 
-/*----------- HERO IMAGE ----------*/
-.hero-image {
+/*----------- HERO IMAGES ----------*/
+.hero-image { /*this is the Preston hero*/
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://laughingsquid.com/wp-content/uploads/napoleon-dynamite-house-20090502-105346.jpg");
 
