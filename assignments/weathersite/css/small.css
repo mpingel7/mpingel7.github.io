@@ -205,6 +205,10 @@ form label.top input:required:valid {
     width: 33.33%;
 }
 
+main p {
+    text-align: center;
+}
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
