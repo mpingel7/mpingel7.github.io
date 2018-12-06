@@ -47,43 +47,40 @@
     
     
 <!-- NAVIGATION HERE -->
-    <nav class="clearfix">
+<nav class="clearfix">
         <button onclick="toggleMenu()">&#9776;</button>
             <ul id="primaryNav" class="">
-              <li><a href="#">Menu</a></li>
-              <li><a href="#">Home</a></li>
+              <li><a href="index.html">Home</a></li>
               <li class="active"><a href="#">Preston</a></li>
-              <li><a href="#">Soda Springs</a></li>
-              <li><a href="#">Fish Haven</a></li>
-              <li><a href="#">Storm Center</a></li>
-              <li><a href="#">Gallery</a></li>
+              <li><a href="sodasprings.html">Soda Springs</a></li>
+              <li><a href="fishhaven.html">Fish Haven</a></li>
+              <li><a href="stormcenter.html">Storm Center</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
             </ul>
     </nav>
     
     
 <!-- CONTENT HERE -->
     <main>
-        <h1 class="cityName">Preston</h1>
-        <div class="">
-            <img src="images/preston-hero.png" alt="" class="">
-            <section class="weathersummary">
-              <h3>Weather Summary</h3>
-              <div class="weatherdetails">
-                <p class="label">Currently:</p>
-                <p class="value">Sunny</p>
-                <p class="label">Temperature:</p>
-                <p class="value">76 &deg;F</p>
-                <p class="label">Humidity:</p>
-                <p class="value">69%</p>
-                <p class="label">Precipitation:</p>
-                <p class="value">0 inches</p>
-                <p class="label">Wind Speed:</p>
-                <p class="value">5 mph</p>
+        <h2 class="cityname">Preston, Idaho Weather</h2>
+        <div class="hero-image">
+                <section class="weathersummary">
+                  <div class="hero-text">
+                        <br>
+                        <br>
+                        <h2>Weather conditions: <span id="place">city</span> area</h2>
+                        <p>Currently: <span id="currentConditions"></span></p>
+                        <p>Temperature: <span id="currentTemp">00</span>&deg;</p>
+                        <p>Humidity: <span id="currentHumidity">00</span>%</p>
+                        <p>Precipitation: <span id="currentHumidity">00</span> inches</p>
+                        <p>Wind Speed: <span id="currentWind">00</span></p>
+                        <br>
+                        <br>
+                    </div>
+                </section>
               </div>
-            </section>
-          </div>
-          <section class="forecast">
-            <h3>High Temperature Forecast</h3>
+           <section class="forecast">
+            <h3>5 Day Forecast</h3>
             <table>
               <thead>
                 <tr>
@@ -107,11 +104,28 @@
               </tbody>
             </table>
           </section>
+          <br>
+          <div class="article">
+              <h3>Preston Article</h3>
+              <img class="articleImg" src="http://1.bp.blogspot.com/-4yD9IqXA2Yo/TqYYAT5qWCI/AAAAAAAABL8/9W6k9bsmbUI/s1600/welcome+to+preston+idaho+id+napoleon+dynamite.jpg" alt="Preston" align="right"> This is where an article about Preston would go. I can get a preview of the content on this main page, and clicking on the button here will allow me to read the rest of this article.</p>
+              <p>The article could be about significant weather events that have happened in the area, places to visit here, or even the best places in town to grab a bite to eat.</p>
+              <br>
+              <button>Read More</button>
+          </div>
+          <div class="contact">
+                <h3>Contact UmbrellasUp.com</h3>
+                <img class="contactImg" src="https://img.bestplaces.net/images/city/1665260_ID_Preston.png" alt="Preston Map" align="left">
+                <p>Contact UmbrellasUp.com to share any feedback you have about our site. We'd love to hear from you!</p>
+                <p>Phone: 867-5303</p>
+                <p>Email: contact@umbrellasup.com</p>
+                <p>Twitter: @umbrellasup</p>
+                <br>
+            </div>
     </main>
     
 <!-- FOOTER HERE -->   
     <footer>
-        <script src="/currentdate.js" type="text/javascript"></script>
+        <script src="scripts/currentdate.js"></script>
 
     </footer>
    
