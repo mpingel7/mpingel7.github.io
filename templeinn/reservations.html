@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="John Doe">
+<title>Welcome | Temple Inn & Suites</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<link href="css/small.css" rel="stylesheet">
+<link href="css/medium.css" rel="stylesheet">
+<link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body>
+<body>
+<header>
+  <h1>Temple Inn & Suites</h1>
+  <h2>For every sacred moment</h2>
+</header>
+  
+<nav class="clearfix">
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="#">Temples</a></li>
+  <li class="active"><a href="#">Reservations</a></li>
+  <li><a href="#">Services</a></li>
+  <li><a href="#">Contact</a></li>
+</ul>
+</nav>
+
+<main>
+    <h1>Make a reservation</h1>
+      <form method="get" action="thanks.html">
+            <fieldset>
+                    <legend>Trip information </legend>
+                        <div>Choose your location</div>
+                            <input list="storms" name="storms" placeholder="Please type here">
+                            <datalist id="storms">
+                                <option value="Los Angeles">
+                                <option value="Provo">
+                                <option value="Phoenix">
+                                <option value="Seattle">
+                            </datalist>
+                            <br><br>
+                        <label class="top">Arrival date <input type="date" name="stormDate"></label>
+                        <label class="top">Departure date <input type="date" name="stormDate"></label>
+                        <br><br>
+                        <div>Select rooms</div>
+                        <label class="top">Standard <input type="number" name="zip" placeholder="0"><br></label>
+                        <label class="top">Superior <input type="number" name="zip" placeholder="0"><br></label>
+                        <label class="top">Deluxe <input type="number" name="zip" placeholder="0"><br></label>
+                        </div>
+                    </label>
+                </fieldset>
+            <fieldset>
+                <legend>General Information</legend>
+                <label class="top">Full Name* <input type="text" name="fname" placeholder="Your Name Here" required><br></label>
+                <label class="top">Email <input type="email" name="email" placeholder="you@gmail.com" required><br></label>
+                <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234" required><br></label>
+                <label class="top">Home state or country <input type="text" name="fname" placeholder="Home state or country"><br></label>
+            </fieldset>
+            <fieldset>
+                <legend>Additional Information</legend>
+                <textarea name="comment" placeholder="Please enter any special accomodations or requests"></textarea>
+            </fieldset>
+            <input type="submit" value="Create Reservation" class="submitBtn">
+        </form>
+</main>
+
+<footer>
+&copy; Paul Cheney 2018
+</footer>
+</body>
+</html>

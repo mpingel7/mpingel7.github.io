@@ -6,39 +6,63 @@ body {
     font-size: 16px;
 }
 
+/* hero image and text */
+
+.hero-image { /*this is the Preston hero*/
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://www.jacobsenconstruction.com/wp-content/uploads/2015/02/Salt-lake-City-Utah-LDS-Temple-Exterior-Restoration_Banner-1_Images-for-Dev.jpg");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    color: white;
+}
+
 /* header rules here */
 header {
-    background-color: #17a8e4;
+    background-color: #003366;
     padding: 1rem 2%;
+    color: #ffff00;
+    font-family: snell roundhand;
 }
 header h1 {
     margin: 0;
+    font-size: 45px;
 }
 header h2 {
     margin: 0;
 }
 
 /* navigation rules here */
-nav {background-color: #111;}
+nav {background-color: #003366;}
 nav ul {margin: 0; padding: 0;}
 nav li {list-style-type: none;}
-nav li.active {background-color: #333;}
+nav li.active {background-color: #3366ff;}
 
 nav a {
     display: block;
     padding: .8rem; 
-    color: #eee;
+    color: white;
     text-align: center;
     text-decoration: none;
 }
-nav a:hover {background-color: #444;}
+nav a:hover {background-color: lightgray;}
 
 /* main rules here */
 main {
     padding: 1rem 2%;
     display: block;
 }
-main h1 {color: #17a8e4;}
+main h1 {color: #3366ff;}
 
 main figure img {width: 100%;}
 main figure {
@@ -50,8 +74,16 @@ main figcaption {text-align: center; font-size: .8rem;}
 footer {
     text-align: center;
     padding: 1rem 2%;
-    background-color: #19a8e4;
+    background-color: #003366;
+    color: white
 }
+
+.contactImg {
+    align-self: left;
+    max-width: 150px;
+}
+
+
 
 
 .clearfix:after {
