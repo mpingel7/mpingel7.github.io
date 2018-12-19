@@ -31,6 +31,11 @@ body {
     color: white;
 }
 
+.slides {
+    max-width: 80%;
+    margin: auto;
+}
+
 /* header rules here */
 header {
     background-color: #003366;
@@ -41,8 +46,8 @@ header {
 }
 header img {
     float: right;
-    height: 10%;
-    width: 8%;
+    height: 12%;
+    width: 10%;
 }
 header h1 {
     margin: 0;
@@ -94,6 +99,10 @@ footer {
 }
 
 .contact p {
+    text-align: center;
+}
+
+.contact h3 {
     text-align: center;
 }
 
