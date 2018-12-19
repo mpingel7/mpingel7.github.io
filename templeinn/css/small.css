@@ -10,7 +10,7 @@ body {
 
 .hero-image { /*this is the Preston hero*/
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://www.jacobsenconstruction.com/wp-content/uploads/2015/02/Salt-lake-City-Utah-LDS-Temple-Exterior-Restoration_Banner-1_Images-for-Dev.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.jacobsenconstruction.com/wp-content/uploads/2015/02/Salt-lake-City-Utah-LDS-Temple-Exterior-Restoration_Banner-1_Images-for-Dev.jpg");
 
     /* Set a specific height */
     height: 50%;
