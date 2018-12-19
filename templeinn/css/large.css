@@ -10,6 +10,9 @@ main figure {width: 31%;}
 
 div.news {column-count: 3;}
 
+header {
+    text-align: left;
+}
 
 
 } /* end of media query */

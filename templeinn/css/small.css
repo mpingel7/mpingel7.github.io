@@ -27,12 +27,22 @@ body {
     color: white;
 }
 
+.hero-text h1 {
+    color: white;
+}
+
 /* header rules here */
 header {
     background-color: #003366;
     padding: 1rem 2%;
     color: #ffff00;
     font-family: snell roundhand;
+    text-align: center;
+}
+header img {
+    float: right;
+    height: 10%;
+    width: 8%;
 }
 header h1 {
     margin: 0;
@@ -40,6 +50,7 @@ header h1 {
 }
 header h2 {
     margin: 0;
+    color: #ffff00;
 }
 
 /* navigation rules here */
@@ -55,14 +66,14 @@ nav a {
     text-align: center;
     text-decoration: none;
 }
-nav a:hover {background-color: lightgray;}
+nav a:hover {background-color: #3366ff;}
 
 /* main rules here */
 main {
     padding: 1rem 2%;
     display: block;
 }
-main h1 {color: #3366ff;}
+main h1, h2 {color: #3366ff;}
 
 main figure img {width: 100%;}
 main figure {
@@ -78,16 +89,57 @@ footer {
     color: white
 }
 
+.contact iframe {
+    float: left;
+}
+
+.contact p {
+    text-align: center;
+}
+
 .contactImg {
     align-self: left;
     max-width: 150px;
 }
 
-
+footer a { 
+    text-decoration: none;
+    color: white;
+}
 
 
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
+}
+
+.contactInfo {
+    text-align: center;
+}
+
+.wayfinding {
+    text-align: center;
+}
+
+.first {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.second {
+    text-align: center;
+}
+
+.third {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.fourth {
+    text-align: center;
+}
+
+div ul {
+    display: inline-block;
 }
